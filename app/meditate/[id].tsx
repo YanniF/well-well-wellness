@@ -49,6 +49,7 @@ function Meditate() {
 
   useEffect(() => {
     return () => {
+      setDuration(10)
       sound?.unloadAsync()
     }
   }, [sound]);
