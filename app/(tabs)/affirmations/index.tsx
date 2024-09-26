@@ -3,7 +3,6 @@ import {View, Text, ScrollView} from "react-native";
 import AppGradient from "@/components/AppGradient";
 import AFFIRMATION_GALLERY from "@/constants/affirmation-gallery"
 import GuidedAffirmationsGallery from "@/components/GuidedAffirmationsGallery";
-import images from "@/constants/affirmation-images";
 
 function Index() {
   return (
