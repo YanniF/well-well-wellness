@@ -1,8 +1,11 @@
-import {Slot} from "expo-router";
+import {Stack} from "expo-router";
 
 function RootLayout() {
   return (
-    <Slot />
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
   )
 }
 
